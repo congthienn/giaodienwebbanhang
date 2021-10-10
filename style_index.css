@@ -1,0 +1,111 @@
+.fa-chevron-left{
+    position: absolute;
+    transform: translateY(-50%);
+    left: 2px;
+    font-size: 200px;
+    color: transparent;
+}
+.fa-chevron-right{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 2px;
+    font-size: 200px;
+    color: transparent;
+}
+.img-poster{
+   position: relative;
+}
+.prev,.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.poster_phu{
+    margin-bottom: 6px;
+}
+.next{
+    right: 8px;
+    padding-left: 20px;
+}
+.prev{
+    z-index: 1;
+    left: 8px;
+    padding-right: 20px;
+}
+.select_sp{
+    margin-top: 20px;
+}
+.product__item{
+    border: 1px solid rgb(241, 240, 240);
+}
+.product__item-img{
+    margin: 30px 0 10px;
+    text-align: center;
+}
+.product__item-img img{
+    width: 85%;
+}
+.product__item-content{
+    padding: 0 10px 10px 25px;
+    font-size: 13px;
+}
+.product__item-content--name{
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.product__item-content--price{
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    color: red;
+}
+.product__item-content--star{
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.product__item-content--star .fa-star{
+    color: orange;
+    font-size: 18px;
+}
+.product__item:hover{
+    z-index: 1;
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.2);
+}
+.product__item:hover img{
+    transform: translateY(-3%);
+    transition:  transform linear 0.3s;
+}
+.producer{
+    margin-top: 20px;
+}
+.producer img{
+    width: 12%;
+    border-radius: 25px;
+    border: 1px lightgrey solid;
+}
+.producer img:hover{
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.2);
+}
+.result_item{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.result_no_search{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+}
+.result_no_search .fa-search{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.navbar_producer{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.navbar_producer .fa-angle-right{
+    transform: translateY(7%);
+}
